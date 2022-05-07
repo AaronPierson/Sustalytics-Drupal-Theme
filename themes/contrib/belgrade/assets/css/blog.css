@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 14px;
+    /* font-family: 'Montserrat', sans-serif; */
+  }
+
+  
+  @font-face { font-family: '5Ceta Mono'; 
+    src: url('fonts/5ceta_mono.ttf')}
+  @font-face { font-family: 'Neris';
+    src: url('fonts/Neris-BlackItalic.otf')}
+  @font-face { font-family: 'Montserrat';
+    src: url('fonts/montserrat-regular.ttf')}
+  
+  
+  /* Solid border */
+hr.solid {
+  clear: both;
+  border-top: 3px solid #bbb;
+}
+
+.pub-info{
+  font-family: '5Ceta Mono';
+  text-align: left;
+  padding-top: 20px;
+}
+
+.summary{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+}
+
+.intro-title{
+  font-family: Neris;
+  font-size: 35px;
+  text-align: left;
+}
+
+.intro-box{
+    border: 3px solid #fff;
+    padding: 20px;
+    line-height: 4.5;
+}
+
+.intro-text{
+  float: left;
+  width: 50%;
+  padding: 20px;
+  /* border: 2px solid red; */
+}
+
+.intro-img{
+  float: left;
+  width: 50%;
+  padding: 20px;
+  /* border: 2px solid red; */
+}
+
+.body-content{
+  /* background-color: rgba(203, 230, 248, 1); */
+  padding: 25px;
+  margin: 15px;
+  clear: both;
+}
+
+.body-content p{
+  font-size: 18px;
+  text-align: left;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.owl-item-inner{
+  margin-left: 75px;
+}

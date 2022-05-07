@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+        <title>{{ head_title|safe_join(' | ') }}</title>
+    </head>
+    <body>
+        <div class="intro-box">
+            <div class="intro-text">
+                <h2 class="intro-title">{{node.label}}</h2>
+                <h4 class="pub-info">{{node.Owner.name.value }}</h4>
+                <h4 class="pub-info">{{node.createdtime | date('F j, Y') }}</h4>
+                <h4 class="summary">{{node.field_post_body.summary }}</h4>
+            </div>
+            <div class="intro-img">
+                    {{content.field_main_images}}
+            </div>
+        </div>
+        <div class="body-content">
+            {{content.field_post_body}} 
+        </div>
+        <hr class="solid">
+
+
+            {{content.field_images}}
+    </body>
+</html>
+
+
+
+{{ attach_library('belgrade/blog') }}

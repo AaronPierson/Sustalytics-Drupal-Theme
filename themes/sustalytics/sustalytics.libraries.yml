@@ -1,0 +1,6 @@
+# Blog
+blog:
+  version: .1
+  css:
+    theme:
+      'css/blog.css': {}

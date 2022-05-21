@@ -1,0 +1,5 @@
+name: sustalytics
+type: theme
+core_version_requirement: ^8 || ^9
+description: sustalytics modify belgrade theme
+base theme: belgrade
